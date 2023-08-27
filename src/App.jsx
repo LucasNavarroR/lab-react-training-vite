@@ -12,6 +12,8 @@ import img1 from "./assets/images/pic1.png";
 import img2 from "./assets/images/pic2.png";
 import Dice from "./components/Dice";
 import Carousel from "./components/Carousel";
+import NumbersTable from "./components/NumbersTable";
+import FaceBook from "./components/FaceBook";
 
 
 const user1 = {
@@ -125,6 +127,9 @@ function App() {
     "https://randomuser.me/api/portraits/men/2.jpg"
   ]}
 />
+<NumbersTable  limit={12}/>
+
+<FaceBook />
     </div>
   );
 }
